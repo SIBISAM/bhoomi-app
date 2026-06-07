@@ -1,15 +1,203 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" prefix="og: https://ogp.me/ns#">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Bhoomi — Kerala AgriLease | NRI Farmland Platform</title>
-  <meta name="description" content="Connecting NRI landowners with certified organic farmers across Kerala. Legal 11-month Leave and Licence agreements. Full monitoring from abroad." />
-  <meta property="og:title" content="Bhoomi — Kerala AgriLease" />
-  <meta property="og:description" content="See your father's paddy field bloom again." />
+
+  <!-- ═══════════════════════════════════════════════════════════════
+       PRIMARY SEO META
+  ═══════════════════════════════════════════════════════════════ -->
+  <title>Bhoomi — Kerala AgriLease | Connect NRI Landowners with Organic Farmers</title>
+  <meta name="description" content="Bhoomi connects NRI Kerala landowners with certified organic farmers via legal 11-month Leave and Licence agreements. Monitor your land from Dubai, London or Toronto. Join the waitlist." />
+  <meta name="keywords" content="Kerala farmland, NRI land lease, organic farming Kerala, Leave and Licence agreement, Kerala agriculture, farm land rent Kerala, NRI landowner, AgriLease Kerala, Bhoomi" />
+  <meta name="author" content="Bhoomi AgriLease" />
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <meta name="theme-color" content="#2D5016" />
+  <link rel="canonical" href="https://bhoomi.ag/" />
+
+  <!-- ═══════════════════════════════════════════════════════════════
+       OPEN GRAPH (Facebook, WhatsApp, LinkedIn)
+  ═══════════════════════════════════════════════════════════════ -->
   <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Bhoomi AgriLease" />
+  <meta property="og:title" content="Bhoomi — See your father's paddy field bloom again" />
+  <meta property="og:description" content="Kerala's NRI farmland platform. Verified farmers. Legal 11-month agreements. Monthly WhatsApp photo updates. Join the waitlist." />
+  <meta property="og:url" content="https://bhoomi.ag/" />
+  <meta property="og:locale" content="en_IN" />
+  <meta property="og:locale:alternate" content="ml_IN" />
+  <!--
+    OG IMAGE PLACEHOLDER — replace with your actual 1200×630 social image
+    Recommended: a lush Kerala farmland photo with the Bhoomi logo overlaid
+    File to create: /images/og-bhoomi.jpg (1200×630 px, ≤200 KB)
+  -->
+  <meta property="og:image" content="https://bhoomi.ag/images/og-bhoomi.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Bhoomi — Kerala AgriLease Platform: lush paddy fields in Kerala" />
+
+  <!-- ═══════════════════════════════════════════════════════════════
+       TWITTER / X CARD
+  ═══════════════════════════════════════════════════════════════ -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@BhoomiAgriLease" />
+  <meta name="twitter:creator" content="@BhoomiAgriLease" />
+  <meta name="twitter:title" content="Bhoomi — Kerala NRI Farmland Platform" />
+  <meta name="twitter:description" content="Connecting NRI Kerala landowners with certified organic farmers. Legal 11-month Leave and Licence. Monitor from abroad." />
+  <meta name="twitter:image" content="https://bhoomi.ag/images/og-bhoomi.jpg" />
+  <meta name="twitter:image:alt" content="Bhoomi — Kerala AgriLease Platform" />
+
+  <!-- ═══════════════════════════════════════════════════════════════
+       WHATSAPP / TELEGRAM RICH PREVIEW
+       (uses OG tags above; these extras help WhatsApp pick the right image)
+  ═══════════════════════════════════════════════════════════════ -->
+  <meta property="og:image:type" content="image/jpeg" />
+
+  <!-- ═══════════════════════════════════════════════════════════════
+       FAVICON & APP ICONS
+       Files to create in /images/icons/:
+         favicon.ico           — 32×32 multi-res ICO (browser tab)
+         favicon-16.png        — 16×16 PNG
+         favicon-32.png        — 32×32 PNG
+         apple-touch-icon.png  — 180×180 PNG (iOS home screen)
+         icon-192.png          — 192×192 PNG (Android PWA)
+         icon-512.png          — 512×512 PNG (Android PWA splash)
+         safari-pinned-tab.svg — Monochrome SVG (Safari pinned tab)
+       Tool: https://realfavicongenerator.net — upload your logo to generate all sizes
+  ═══════════════════════════════════════════════════════════════ -->
+  <link rel="icon" type="image/x-icon" href="/images/icons/favicon.ico" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/icons/favicon-16.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/icons/favicon-32.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/icons/apple-touch-icon.png" />
+  <link rel="mask-icon" href="/images/icons/safari-pinned-tab.svg" color="#2D5016" />
+  <link rel="manifest" href="/manifest.json" />
+  <meta name="msapplication-TileColor" content="#2D5016" />
+  <meta name="msapplication-TileImage" content="/images/icons/icon-192.png" />
+
+  <!-- ═══════════════════════════════════════════════════════════════
+       STRUCTURED DATA — JSON-LD
+       1. Organization  2. WebSite (sitelinks searchbox)  3. LocalBusiness
+  ═══════════════════════════════════════════════════════════════ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://bhoomi.ag/#organization",
+        "name": "Bhoomi AgriLease",
+        "url": "https://bhoomi.ag/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://bhoomi.ag/images/logo-bhoomi.png",
+          "width": 200,
+          "height": 60
+        },
+        "description": "Kerala's NRI farmland leasing platform connecting landowners with certified organic farmers via legal 11-month Leave and Licence agreements.",
+        "foundingDate": "2025",
+        "areaServed": {
+          "@type": "State",
+          "name": "Kerala",
+          "addressCountry": "IN"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "customer support",
+          "availableLanguage": ["English", "Malayalam"],
+          "url": "https://wa.me/917736227555"
+        },
+        "sameAs": [
+          "https://twitter.com/BhoomiAgriLease",
+          "https://www.linkedin.com/company/bhoomi-agrilease",
+          "https://www.facebook.com/BhoomiAgriLease"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://bhoomi.ag/#website",
+        "url": "https://bhoomi.ag/",
+        "name": "Bhoomi AgriLease",
+        "description": "Kerala NRI farmland leasing platform",
+        "publisher": { "@id": "https://bhoomi.ag/#organization" },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://bhoomi.ag/land?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://bhoomi.ag/#service",
+        "name": "NRI Farmland Leasing",
+        "provider": { "@id": "https://bhoomi.ag/#organization" },
+        "serviceType": "Agricultural Land Leasing",
+        "description": "Matching NRI Kerala landowners with certified organic farmers using AI crop-matching and legal 11-month Leave and Licence agreements.",
+        "areaServed": { "@type": "State", "name": "Kerala" },
+        "audience": [
+          { "@type": "Audience", "audienceType": "NRI Landowners" },
+          { "@type": "Audience", "audienceType": "Organic Farmers" }
+        ],
+        "offers": {
+          "@type": "Offer",
+          "price": "500",
+          "priceCurrency": "INR",
+          "description": "Land listing fee"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Is Bhoomi legal under Kerala law?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Short-term Leave and Licence agreements of 11 months or less are fully permissible under Kerala law and do not create tenancy rights."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is an 11-month Leave and Licence?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A Leave and Licence grants a farmer a licence to cultivate for 11 months. It is explicitly not a tenancy. At the end of 11 months it expires automatically. The landowner retains full ownership throughout."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can the farmer claim ownership of my land?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. A Leave and Licence explicitly prevents any tenancy rights from accruing. Agreements are clearly labelled 'Leave and Licence' and a fresh agreement is signed each 11-month period."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What documents do I need to list my land?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "You need: (1) Patta document, (2) Survey number for the plot, (3) Property tax receipt (optional), (4) Clear photos of the land. You can upload scanned copies from abroad — no physical presence needed."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <!-- ═══════════════════════════════════════════════════════════════
+       PERFORMANCE — Resource hints
+  ═══════════════════════════════════════════════════════════════ -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="dns-prefetch" href="https://images.unsplash.com" />
+  <link rel="dns-prefetch" href="https://wa.me" />
+
+  <!-- Preload critical above-the-fold assets -->
+  <!--
+    LOGO PRELOAD PLACEHOLDER — uncomment and update path once logo file is ready
+    <link rel="preload" as="image" href="/images/logo-bhoomi.svg" />
+  -->
+
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Malayalam:wght@400;600;700&family=Noto+Sans:wght@400;500;600;700&family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
@@ -18,9 +206,28 @@
   <!-- ───────── HEADER ───────── -->
   <header class="header" id="top">
     <div class="container header__inner">
-      <a href="#top" class="logo">
-        <span class="logo__icon">🌾</span>
-        <span class="logo__text">Bhoomi</span>
+      <a href="#top" class="logo" aria-label="Bhoomi — home">
+        <!--
+          LOGO PLACEHOLDER — replace the <img> src with your actual logo file.
+          Recommended formats:
+            SVG  → /images/logo-bhoomi.svg  (vector, scales perfectly, smallest size)
+            PNG  → /images/logo-bhoomi.png  (fallback, 2x resolution e.g. 400×120 px)
+          Design spec: horizontal lockup, dark-on-light variant for header.
+          Light variant (for dark footer) → /images/logo-bhoomi-light.svg
+        -->
+        <img
+          src="/images/logo-bhoomi.svg"
+          alt="Bhoomi AgriLease"
+          class="logo__img"
+          width="120"
+          height="36"
+          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"
+        />
+        <!-- Fallback text logo (shows if image is missing) -->
+        <span class="logo__fallback" style="display:none">
+          <span class="logo__icon">🌾</span>
+          <span class="logo__text">Bhoomi</span>
+        </span>
       </a>
       <nav class="nav" id="nav">
         <a href="#how-it-works">How it Works</a>
@@ -584,8 +791,22 @@
     <div class="container footer__inner">
       <div class="footer__brand">
         <div class="logo logo--light">
-          <span class="logo__icon">🌾</span>
-          <span class="logo__text">Bhoomi</span>
+          <!--
+            FOOTER LOGO PLACEHOLDER — use the light/white variant of your logo here.
+            File: /images/logo-bhoomi-light.svg (white or cream coloured, for dark background)
+          -->
+          <img
+            src="/images/logo-bhoomi-light.svg"
+            alt="Bhoomi AgriLease"
+            class="logo__img"
+            width="120"
+            height="36"
+            onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"
+          />
+          <span class="logo__fallback" style="display:none">
+            <span class="logo__icon">🌾</span>
+            <span class="logo__text">Bhoomi</span>
+          </span>
         </div>
         <p>Connecting NRI landowners with certified organic farmers across Kerala. Legal 11-month Leave and Licence agreements.</p>
         <a href="https://wa.me/917736227555?text=Tell+me+more+about+Bhoomi" target="_blank" rel="noopener" class="whatsapp-btn">
@@ -620,7 +841,7 @@
       </div>
     </div>
     <div class="footer__bottom container">
-      <p>© 2025 Bhoomi AgriLease. All rights reserved.</p>
+      <p>© 2025–2026 Bhoomi AgriLease. All rights reserved. &nbsp;·&nbsp; <a href="#legal" style="color:inherit;opacity:.7">Privacy</a> &nbsp;·&nbsp; <a href="#legal" style="color:inherit;opacity:.7">Terms</a></p>
       <p class="footer__ml">ഭൂമി — കേരള കൃഷി ഭൂ പ്ലാറ്റ്ഫോം</p>
     </div>
   </footer>

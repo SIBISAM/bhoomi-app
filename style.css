@@ -124,6 +124,20 @@ p  { color: var(--bark); }
 .logo__text { font-family: var(--font-serif); font-weight: 700; font-size: 1.25rem; color: var(--soil); }
 .logo--light .logo__text { color: var(--rice); }
 
+/* Logo image — scales proportionally, max height matches header */
+.logo__img {
+  height: 36px;
+  width: auto;
+  max-width: 140px;
+  object-fit: contain;
+  display: block;
+}
+.logo--light .logo__img {
+  /* light logo variant for dark footer background */
+  filter: brightness(0) invert(1) opacity(.9);
+}
+.logo__fallback { display: flex; align-items: center; gap: .5rem; }
+
 .nav {
   display: flex;
   align-items: center;

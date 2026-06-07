@@ -1,0 +1,25 @@
+BHOOMI — FAVICON & ICON FILES NEEDED
+=====================================
+All files in this folder are referenced by index.html and manifest.json.
+Generate them at: https://realfavicongenerator.net (upload your logo SVG)
+
+FILES TO CREATE:
+  favicon.ico            — 32×32 multi-resolution ICO (browser tab classic fallback)
+  favicon-16.png         — 16×16 PNG
+  favicon-32.png         — 32×32 PNG
+  apple-touch-icon.png   — 180×180 PNG (iOS "Add to Home Screen")
+  safari-pinned-tab.svg  — Monochrome SVG (Safari pinned tab, use leaf shape)
+  icon-192.png           — 192×192 PNG (Android PWA, Chrome install prompt)
+  icon-512.png           — 512×512 PNG (Android PWA splash screen)
+
+SOCIAL / OG IMAGE (goes in /images/, not here):
+  ../og-bhoomi.jpg       — 1200×630 JPEG (Facebook, WhatsApp, LinkedIn preview)
+                           Design: Kerala farmland photo + Bhoomi logo overlay
+  ../logo-bhoomi.svg     — Horizontal logo, dark variant (header use)
+  ../logo-bhoomi-light.svg — Horizontal logo, light/white variant (footer use)
+  ../logo-bhoomi.png     — 400×120 PNG fallback (2× resolution)
+
+BRAND COLOURS:
+  Primary green: #2D5016
+  Gold/harvest:  #E8A838
+  Background:    #FDFAF5
